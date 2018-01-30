@@ -1,10 +1,7 @@
 #include "spectests.h"
 #include "specexamples.h"
 #include "yaml-cpp/yaml.h"
-#include <fstream>
 #include <sstream>
-#include <vector>
-#include <iostream>
 
 #define YAML_ASSERT(cond) do { if(!(cond)) return "  Assert failed: " #cond; } while(false)
 #define PARSE(doc, input) \
