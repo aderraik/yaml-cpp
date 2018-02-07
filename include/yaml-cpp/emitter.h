@@ -18,6 +18,7 @@
 
 namespace YAML
 {
+	const float Version = 1.2f;
 	class EmitterState;
 	
 	class YAML_CPP_API Emitter: private noncopyable
