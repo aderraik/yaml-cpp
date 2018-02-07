@@ -81,6 +81,10 @@ int main()
    YAML::Parser parser(fin);
    YAML::Node doc;
    parser.GetNextDocument(doc);
+
+	out << YAML::Comment("A comment describing the purpose of the file.");
+	out << YAML::Newline;
+	out << YAML::BeginDoc;
 	out << YAML::BeginSeq;
    for(unsigned i=0;i<doc.size();i++)
    {
@@ -90,7 +94,10 @@ int main()
       out << monster;
    }
 	out << YAML::EndSeq;
+	out << YAML::EndDoc;
 
-   std::cout << "Here's the output YAML:\n" << out.c_str();
+   std::cout << "Here's the output YAML:\n";
+   std::cout << "%YAML " << YAML::Version << "\n";
+   std::cout << out.c_str();
    return 0;
 }
