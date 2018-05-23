@@ -1,11 +1,13 @@
 ---
 - name: Ogre
+  # Comment test
   position: [0, 5, 0]
   powers:
     - name: Club
+      # Another comment test
       damage: 10
     - name: Fist
-      damage: 8
+      damage: 8   # Test
 - name: Dragon
   position: [1, 0, 10]
   powers:
