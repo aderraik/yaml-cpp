@@ -9,36 +9,22 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example", "yaml-example\yam
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
-		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{002FDDB3-3660-4F42-9C27-A32FD2FB3F2C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{002FDDB3-3660-4F42-9C27-A32FD2FB3F2C}.Debug|Win32.Build.0 = Debug|Win32
 		{002FDDB3-3660-4F42-9C27-A32FD2FB3F2C}.Debug|x64.ActiveCfg = Debug|x64
 		{002FDDB3-3660-4F42-9C27-A32FD2FB3F2C}.Debug|x64.Build.0 = Debug|x64
-		{002FDDB3-3660-4F42-9C27-A32FD2FB3F2C}.Release|Win32.ActiveCfg = Release|Win32
-		{002FDDB3-3660-4F42-9C27-A32FD2FB3F2C}.Release|Win32.Build.0 = Release|Win32
 		{002FDDB3-3660-4F42-9C27-A32FD2FB3F2C}.Release|x64.ActiveCfg = Release|x64
 		{002FDDB3-3660-4F42-9C27-A32FD2FB3F2C}.Release|x64.Build.0 = Release|x64
 		
-		{8B58DB69-DC15-4626-A8BC-84B5EFD0A5A5}.Debug|Win32.ActiveCfg = Debug|Win32
-		{8B58DB69-DC15-4626-A8BC-84B5EFD0A5A5}.Debug|Win32.Build.0 = Debug|Win32
 		{8B58DB69-DC15-4626-A8BC-84B5EFD0A5A5}.Debug|x64.ActiveCfg = Debug|x64
 		{8B58DB69-DC15-4626-A8BC-84B5EFD0A5A5}.Debug|x64.Build.0 = Debug|x64
-		{8B58DB69-DC15-4626-A8BC-84B5EFD0A5A5}.Release|Win32.ActiveCfg = Release|Win32
-		{8B58DB69-DC15-4626-A8BC-84B5EFD0A5A5}.Release|Win32.Build.0 = Release|Win32
 		{8B58DB69-DC15-4626-A8BC-84B5EFD0A5A5}.Release|x64.ActiveCfg = Release|x64
 		{8B58DB69-DC15-4626-A8BC-84B5EFD0A5A5}.Release|x64.Build.0 = Release|x64
 		
-		{CA2FF8CE-6A76-4745-BE6F-A9EB878AC7D7}.Debug|Win32.ActiveCfg = Debug|Win32
-		{CA2FF8CE-6A76-4745-BE6F-A9EB878AC7D7}.Debug|Win32.Build.0 = Debug|Win32
 		{CA2FF8CE-6A76-4745-BE6F-A9EB878AC7D7}.Debug|x64.ActiveCfg = Debug|x64
 		{CA2FF8CE-6A76-4745-BE6F-A9EB878AC7D7}.Debug|x64.Build.0 = Debug|x64
-		{CA2FF8CE-6A76-4745-BE6F-A9EB878AC7D7}.Release|Win32.ActiveCfg = Release|Win32
-		{CA2FF8CE-6A76-4745-BE6F-A9EB878AC7D7}.Release|Win32.Build.0 = Release|Win32
 		{CA2FF8CE-6A76-4745-BE6F-A9EB878AC7D7}.Release|x64.ActiveCfg = Release|x64
 		{CA2FF8CE-6A76-4745-BE6F-A9EB878AC7D7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
